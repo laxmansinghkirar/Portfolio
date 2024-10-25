@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">LSK</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Hello, I'm Laxman Singh Kirar</h1>
+      <p>A passionate Computer Science student specializing in development, algorithms, and data science.</p>
+      <button class="cta" onclick="scrollToProjects()">View Projects</button>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-box">
+        <h3>Programming Languages</h3>
+        <p>Python, JavaScript, C++, Java</p>
+      </div>
+      <div class="skill-box">
+        <h3>Web Development</h3>
+        <p>HTML, CSS, React, Node.js</p>
+      </div>
+      <div class="skill-box">
+        <h3>Data Science</h3>
+        <p>Pandas, NumPy, scikit-learn</p>
+      </div>
+      <div class="skill-box">
+        <h3>Other Skills</h3>
+        <p>Git, SQL, Linux, Docker</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-box">
+        <h3>Project 1: Portfolio Website</h3>
+        <p>A personal portfolio website built with HTML, CSS, and JavaScript to showcase my work.</p>
+      </div>
+      <div class="project-box">
+        <h3>Project 2: Machine Learning Model</h3>
+        <p>Developed a model to predict house prices using Python and scikit-learn.</p>
+      </div>
+      <div class="project-box">
+        <h3>Project 3: E-commerce App</h3>
+        <p>Working a full-stack e-commerce application with React and Node.js.</p>
+      </div>
+      <div class="project-box">
+        <h3>Project 4: Data Visualization</h3>
+        <p>Visualized data trends using Matplotlib and Seaborn in Python.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  <footer><div class="footer"> &copy; All Rights Are Reserved</div></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
